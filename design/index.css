@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'outfit';
+    src: url('../assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+    src: url('../assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'young-serif';
+    src: url('../assets/fonts/young-serif/YoungSerif-Regular.ttf');
+    src: url('../assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'outfit', Calibri, Tahoma, sans-serif;
+    background-color: rgb(243, 229, 216);
+    color: rgb(94, 85, 78)
+}
+
+h1, h2 {
+    font-family: 'young-serif', Calibri, Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    color: rgb(48,47,45);
+    font-size: xx-large;
+}
+
+h2 {
+    color: rgb(132,70,49)
+}
+
+h3 {
+    font-family: 'outfit', Calibri, Tahoma, sans-serif;
+    color: rgb(117,44,73);
+    margin-top: 0px
+}
+
+.recipe {
+    margin: 50px 350px 50px 350px;
+    padding: 30px 30px 10px 30px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.recipe-image {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.recipe-prep-time {
+    background-color: rgb(255,247,252);
+    padding: 25px;
+    border-radius: 15px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+ul, ol {
+    padding-inline-start: 25px;
+    margin-bottom: 0px
+}
+
+li {
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+li:last-child {
+    margin-bottom: 0px;
+}
+
+
+.recipe-instructions-list > li::marker {
+    color: rgb(132,70,49);
+    font-weight: 700;
+}
+
+.recipe-nutrition-table {
+    margin-top: 30px;
+    border-collapse: collapse; 
+    width: 100%;
+}
+
+.recipe-nutrition-table tr > * {
+    display: block; 
+    border-bottom: 1px solid rgb(224,224,224);
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    padding-left: 20px
+}
+
+.recipe-nutrition-table tr {
+    display: table-cell;
+    vertical-align: top;
+    text-align: left;
+}
+
+.recipe-nutrition-table tr > *:nth-child(4) {
+    border-bottom: none;
+}
+
+
+th {
+    font-weight: normal !important;
+}
+
+.recipe-nutrition-table-values {
+    color: rgb(132,70,49);
+    font-weight: 700;
+}
+
+
+
+/* Solid border */
+hr.solid {
+    border-top: 1px solid rgb(224,224,224);
+}
